@@ -1,0 +1,11 @@
+{
+	"name": "yoroble",
+	"version": "",
+	"description": "",
+	"author": "",
+	"license": "",
+	"language": "",
+	"scripts": {
+		"start": "node ble.js"
+	}
+}
