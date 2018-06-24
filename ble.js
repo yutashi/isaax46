@@ -5,7 +5,7 @@ var config = require('./config.js');
 
 var fs = require("fs");
 console.log("servo.pyの接続待ち");
-var fd = fs.openSync("fifo", "w");
+var fd = fs.openSync("/home/pi/raspi-yoro/fifo", "w");
 console.log("servo.pyと接続しました");
 
 function setServo(data) {
