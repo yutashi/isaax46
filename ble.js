@@ -1,7 +1,7 @@
 'use strict';
 
 var common = require('./common.js');
-var config = require('./config.js');
+var config = require('/home/pi/raspi-yoro/config.js');
 
 var fs = require("fs");
 console.log("servo.pyの接続待ち");
