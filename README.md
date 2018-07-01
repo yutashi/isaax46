@@ -5,8 +5,12 @@
 - sudo systemctl stop yorobled
 - sudo systemctl disable yorobled
 - sudo systemctl status yorobled
+### ポート番号定義追加（SPORT）
+- vi ~/rasp-yoro/config.js
 ### isaaxをインストール
 - curl -fsSL get.isaax.io | sh -s stable ....
+- cd /var/isaax/project/
+- sudo npm install
 
 
 ## 今までのオリジナルのデーモンで動かす
