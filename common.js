@@ -1,5 +1,5 @@
 const os = require('os');
-var config = require('./config.js');
+var config = require('/home/pi/raspi-yoro/config.js');
 const request = require('request');
 
 exports.IpAddress = function() {
