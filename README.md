@@ -1,37 +1,40 @@
-- configを元のを読むようにする
-- なのでconfig.jsは削除
-
-
-
 # isaax46
 
 ## isaaxのインストール
+### オリジナルを停止、確認
 - sudo systemctl stop yorobled
 - sudo systemctl disable yorobled
 - sudo systemctl status yorobled
+### isaaxをインストール
 - curl -fsSL get.isaax.io | sh -s stable ....
 
 
-## 今までのデーモンで動かす
+## 今までのオリジナルのデーモンで動かす
+### isaaxを停止、確認
 - sudo systemctl stop isaax-project
 - sudo systemctl stop isaaxd
 - sudo systemctl disable isaax-project
 - sudo systemctl disable isaaxd
 - sudo systemctl status isaax-project
 - sudo systemctl status isaaxd
-
+### オリジナルを動かす
 - sudo systemctl enable yorobled
 - sudo systemctl start yorobled
 - sudo systemctl status yorobled
 
 
 ## isaaxで動かす
+### オリジナルを停止、確認
 - sudo systemctl stop yorobled
 - sudo systemctl disable yorobled
 - sudo systemctl status yorobled
-
+### isaaxを開始
 - sudo systemctl enable isaax-project
 - sudo systemctl enable isaaxd
+- sudo systemctl start isaax-project
+- sudo systemctl start isaaxd
+- sudo systemctl status isaax-project
+- sudo systemctl status isaaxd
 
 
 
