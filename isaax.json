@@ -6,6 +6,6 @@
 	"license": "",
 	"language": "",
 	"scripts": {
-		"start": "node ble.js"
+		"start": "sh ble.sh"
 	}
 }
