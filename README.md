@@ -12,6 +12,8 @@
 - cd /var/isaax/project/
 - sudo npm install
 ### アプリの再起動時間を短くする
+- sudo vi /etc/systemd/system/isaaxd.service
+  - RestartSec=120 を 1 にする
 - sudo vi /etc/systemd/system/isaax-project.service
   - RestartSec=120 を 1 にする
 ## ログは下記にある
