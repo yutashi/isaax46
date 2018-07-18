@@ -11,6 +11,12 @@
 - curl -fsSL get.isaax.io | sh -s stable ....
 - cd /var/isaax/project/
 - sudo npm install
+### アプリの再起動時間を短くする
+- sudo vi /etc/systemd/system/isaax-project.service
+  - RestartSec=120 を 1 にする
+## ログは下記にある
+- /var/isaax/log/project.err.log
+- /var/isaax/log/project.out.log
 
 
 ## 今までのオリジナルのデーモンで動かす
