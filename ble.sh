@@ -1,1 +1,1 @@
-while true; do node ble.js; sleep 1s; done
+while true; do echo "Hello"; sleep 10; done
